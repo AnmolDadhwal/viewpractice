@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">viewpractice</string>
+    <string name="Mark_Attendance">Mark Attendance</string>
+    <string name="show_Attendance">Show Attendance</string>
+    <string name="homework">Home\nWork</string>
+    <string name="gallery">Gallery</string>
+    <string name="notice">Notice</string>
+    <string name="pay_fee">Pay Fee</string>
+    <string name="about">About</string>
+</resources>
