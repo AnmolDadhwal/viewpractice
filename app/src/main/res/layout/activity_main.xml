@@ -36,10 +36,11 @@
             android:layout_width="@dimen/dp_50"
             android:layout_height="@dimen/dp_50"
             android:id="@+id/showatten"
-            android:src="@drawable/show"
+            android:src="@drawable/rounded_article_24"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/dp_20"
-            android:layout_marginBottom="@dimen/dp_40"/>
+            android:layout_marginBottom="@dimen/dp_40"
+            android:background="@color/cardview_shadow_start_color"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,10 +64,11 @@
             android:layout_width="@dimen/dp_50"
             android:layout_height="@dimen/dp_50"
             android:id="@+id/markatten"
-            android:src="@drawable/calender"
+            android:src="@drawable/baseline_calendar_month_24"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/dp_20"
-            android:layout_marginBottom="@dimen/dp_40"/>
+            android:layout_marginBottom="@dimen/dp_40"
+            android:background="@color/cardview_shadow_start_color"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,10 +92,11 @@
             android:layout_width="@dimen/dp_50"
             android:layout_height="@dimen/dp_50"
             android:id="@+id/homework"
-            android:src="@drawable/book1"
+            android:src="@drawable/baseline_menu_book_24"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/dp_20"
-            android:layout_marginBottom="@dimen/dp_40"/>
+            android:layout_marginBottom="@dimen/dp_40"
+            android:background="@color/cardview_shadow_start_color"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -118,20 +121,14 @@
             android:layout_height="@dimen/dp_60">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/gallery"
                 android:id="@+id/gallery"
                 android:layout_marginStart="@dimen/dp_20"
-                android:layout_gravity="center_vertical"
+                android:gravity="center"
                 android:textColor="@color/pink"
-                android:textSize="@dimen/sp_20"/>
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="@dimen/dp_50"
-                android:layout_gravity="end"
-                android:background="@drawable/baseline_add_photo_alternate_24"
-                android:layout_marginStart="@dimen/dp_10"
-                android:layout_marginEnd="@dimen/dp_5"/>
+                android:textSize="@dimen/sp_20"
+                app:drawableEndCompat="@drawable/baseline_add_photo_alternate_24"/>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:layout_width="@dimen/dp_150"
@@ -139,21 +136,15 @@
             android:layout_marginStart="@dimen/dp_50">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/notice"
+                app:drawableEndCompat="@drawable/baseline_email_24"
                 android:id="@+id/notice"
                 android:layout_marginStart="@dimen/dp_20"
-                android:layout_gravity="center_vertical"
+                android:gravity="center"
                 android:textColor="@color/green"
-                android:textSize="@dimen/sp_20"/>
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="@dimen/dp_50"
-                android:layout_gravity="end"
-                android:background="@drawable/round_attach_email_24"
-                android:layout_marginStart="@dimen/dp_10"
-                android:layout_marginTop="@dimen/dp_10"
-                android:layout_marginEnd="@dimen/dp_5"/>
+                android:textSize="@dimen/sp_20"
+                />
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
     <LinearLayout
@@ -169,20 +160,13 @@
             android:layout_height="@dimen/dp_60">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/pay_fee"
-                android:layout_marginStart="@dimen/dp_20"
-                android:layout_gravity="center_vertical"
+                android:gravity="center"
                 android:textColor="@color/bluelight"
-                android:textSize="@dimen/sp_20"/>
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="@dimen/dp_50"
-                android:layout_gravity="end"
-                android:background="@drawable/rounded_currency_rupee_circle_24"
-                android:layout_marginStart="@dimen/dp_10"
-                android:layout_marginTop="@dimen/dp_5"
-                android:layout_marginEnd="@dimen/dp_5"/>
+                android:textSize="@dimen/sp_20"
+                app:drawableEndCompat="@drawable/rounded_currency_rupee_circle_24"
+                android:layout_marginStart="@dimen/dp_20"/>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:layout_width="@dimen/dp_150"
@@ -190,20 +174,13 @@
             android:layout_marginStart="@dimen/dp_50">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/about"
-                android:layout_marginStart="@dimen/dp_20"
-                android:layout_gravity="center_vertical"
+                android:gravity="center"
                 android:textColor="@color/gold"
-                android:textSize="@dimen/sp_20"/>
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="@dimen/dp_50"
-                android:layout_gravity="end"
-                android:background="@drawable/rounded_account_circle_24"
-                android:layout_marginStart="@dimen/dp_10"
-                android:layout_marginTop="@dimen/dp_5"
-                android:layout_marginEnd="@dimen/dp_5"/>
+                android:textSize="@dimen/sp_20"
+                app:drawableEndCompat="@drawable/rounded_account_circle_24"
+                android:layout_marginStart="@dimen/dp_20"/>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </RelativeLayout>
