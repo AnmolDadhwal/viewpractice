@@ -15,4 +15,5 @@
     <dimen name="dp_5">5dp</dimen>
     <dimen name="dp_80">80dp</dimen>
     <dimen name="dp_400">400dp</dimen>
+    <dimen name="dp_60neg">-60dp</dimen>
 </resources>
